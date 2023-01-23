@@ -1,0 +1,8 @@
+django==3.2
+psycopg2
+pillow
+gunicorn
+django-taggit
+django-crispy-forms
+django-phone-field
+whitenoise

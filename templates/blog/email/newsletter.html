@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load absoluteuri %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>{{ title }}</title>
+</head>
+<body>
+{% block content %}
+    <div class="container">
+      <!-- Content here -->
+        <a href="{{ get_absolute_url }}" class="btn btn-primary">GO TO POST</a>
+        <p class="lead">
+            {{ body }}
+        </p>
+    </div>
+
+    <div class="">
+        <p>Do you want to unsubscribe ? click the <a class="link-danger" href="{{ delete }}">link</a></p>
+    </div>
+
+{% endblock content %}
+</body>
+</html>
