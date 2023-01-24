@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['www.vincentproblog.com', 'vincentproblog.com', 'vincentblog.co
 AUTH_USER_MODEL = "accounts.User"
 # Application definition
 
+SITE_ID = 1
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
