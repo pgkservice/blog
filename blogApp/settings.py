@@ -27,7 +27,7 @@ with open("website_secrete_informations.json") as file:
 SECRET_KEY = SECRETS['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
