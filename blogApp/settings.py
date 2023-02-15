@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    'django.contrib.postgres',
+#     'django.contrib.postgres',
 
     'blog.apps.BlogConfig',
     'taggit',
