@@ -1,8 +1,7 @@
 django==3.2
-psycopg2
+psycopg
 pillow
 gunicorn
 django-taggit
 django-crispy-forms
-django-phone-field
 whitenoise
